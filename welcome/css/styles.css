@@ -1,0 +1,466 @@
+﻿/* GENERAL STYLES */
+body {
+  text-align: center;
+  font-size: 1.8em;
+  background-color: #99ccff;
+}
+h2 {
+  font-size: 1.5em;
+}
+footer {
+  text-align: center;
+  padding-bottom: 5px;
+}
+.footer-text {
+  font-size: 1em;
+  font-style: italic;
+  /*italicize copyright  */
+}
+/* NAVIGATION */
+/* navbar styles */
+/* nav styles */
+.title {
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: white;
+}
+.nav {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: navy;
+  height: 55px;
+  position: fixed;
+  width: 100%;
+  z-index: 2;
+}
+.logo {
+  font-size: 1.8rem;
+  padding-left: 20px;
+}
+.my-logo {
+  padding-top: 0px;
+  height: 45px;
+  width: auto;
+}
+.logo-image {
+  width: 60%;
+  height: auto;
+}
+.hamburger {
+  padding-right: 20px;
+  cursor: pointer;
+}
+.hamburger .line {
+  display: block;
+  width: 40px;
+  height: 5px;
+  margin-bottom: 5px;
+  background-color: white;
+}
+.hamburger:hover .line {
+  /* background-color */
+  background-color: lightsteelblue;
+}
+.nav__link {
+  position: fixed;
+  width: 100%;
+  top: 3.46rem;
+  background-color: navy;
+  font-size: 0.8rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+.nav-box {
+  display: block;
+  text-align: center;
+  padding: 4px 0;
+  text-decoration: none;
+  color: white;
+  font-weight: bold;
+  text-transform: uppercase;
+  text-transform: calc();
+}
+.nav-box:hover {
+  background-color: #0000cc;
+  color: lightsteelblue;
+}
+.navbar {
+  text-align: center;
+}
+.navbar-text {
+  text-decoration: none;
+  font-family: "Gill Sans", "Gill Sans MT", Calibri, "Trebuchet MS", sans-serif;
+  font-weight: bold;
+  size: 2rem;
+}
+.hide {
+  display: none;
+}
+/* Hero Banner */
+body,
+html {
+  height: 100%;
+}
+/* The hero image */
+.hero-container {
+  padding-top: 21px;
+}
+.hero-image {
+  /* Use "linear-gradient" to add a darken background effect to the image (photographer.jpg). This will make the text easier to read */
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url("../images/hopkins_view_edited.jpg"); /* Set a specific height */
+  height: 30%; /* Position and center the image to scale nicely on all screens */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+/* Place text in the middle of the image */
+.hero-text {
+  text-align: center;
+  position: relative;
+  top: 40%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+  font-size: 1.6rem;
+}
+.hero-button {
+  background-color: cornflowerblue;
+  border: #0099cc;
+  width: 200px;
+  height: 30px;
+}
+.hero-button:hover {
+  background-color: rgb(150, 181, 238);
+}
+.button-text {
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  font-size: 13px;
+}
+/* UTILITIES */
+.flex-container {
+  width: 95%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+  margin-left: 2%;
+  margin-right: 2%;
+}
+.flex-pic {
+  padding-top: 2%;
+  width: 35%;
+  height: auto;
+}
+.flex-item {
+  width: 45%;
+}
+.grid-container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  padding: 0%;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, 45%);
+  grid-template-rows: repeat(auto, 50%);
+  grid-gap: 0.5rem;
+  justify-content: center;
+}
+.align-all {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding-left: 0%;
+  padding: 0%;
+  text-align: center;
+}
+table {
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+}
+table,
+td {
+  width: 40rem;
+  border: 2px solid rgb(7, 8, 65);
+  font-size: 2rem;
+}
+th {
+  background-color: rgb(127, 188, 228);
+}
+tr {
+  background-color: lightcyan;
+}
+tr:nth-child(odd) {
+  background-color: lightblue;
+}
+thead,
+tfoot {
+  background-color: white;
+  color: black;
+}
+figcaption {
+  font-size: 1.2rem;
+  padding: 2%;
+  border-top: 4px solid navy;
+}
+figure {
+  background-color: white;
+  border: 4px solid navy;
+  box-shadow: 6px 6px 10px #c5a687;
+  max-width: 400px;
+  margin: 2% auto;
+}
+.figure-serv {
+  width: 10%;
+}
+.pic-server {
+  width: 25%;
+}
+.no-bullets {
+  list-style-type: none;
+}
+/* CUSTOM STYLES */
+.main-text {
+  font-size: 1em;
+  margin-left: 2.5%;
+  margin-right: 2.5%;
+}
+.sub-title {
+  font-size: 2.6rem;
+}
+.profile-pic {
+  padding-top: 40px;
+  width: 25%;
+  height: auto;
+}
+.skills {
+  text-align: center;
+  list-style-position: inside;
+  list-style-type: none;
+}
+.link {
+  text-decoration: none;
+  color: blue;
+}
+.link:hover {
+  color: #0099cc;
+}
+.bg {
+  background-color: #99ccff;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+.cornelius_dad {
+  width: 45%;
+  height: auto;
+}
+.class-pic {
+  width: 729px;
+  height: auto;
+}
+.video {
+  width: 100%;
+  height: 100%;
+}
+.my_vid {
+  width: 400px;
+  height: auto;
+}
+.soundcloud-embed {
+  width: 600px;
+}
+.applet-mobile {
+  display: none;
+  font-style: italic;
+}
+form {
+  width: auto;
+  font-size: 2rem;
+}
+fieldset {
+  border-style: none;
+}
+.my-form {
+  border-style: ridge;
+  border-color: white;
+  margin-left: auto;
+  margin-right: auto;
+  width: 80%;
+}
+.form-title {
+  font-size: 2rem;
+}
+.applet {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0;
+  box-sizing: border-box;
+  text-align: center;
+}
+canvas {
+  display: block;
+  background-color: white;
+  border-style: solid;
+}
+.btn {
+  background-color: whitesmoke;
+  border: black;
+  width: 200px;
+  height: 30px;
+  margin-bottom: 20px;
+}
+.btn:hover {
+  background-color: azure;
+  cursor: pointer;
+}
+.skill-list li a {
+  color: blue;
+  font-size: 1.8rem;
+  text-decoration: underline;
+  font-family: Hand;
+  list-style-type: none;
+  padding-top: 1%;
+  padding-bottom: 1%;
+  text-align: center;
+}
+
+.resu {
+  font-size: 2.5rem;
+}
+/* Imported CSS from my portfolio site */
+/* Desktop Design */
+@media screen and (min-width: 1360px) {
+  .nav__link {
+    display: block;
+    position: static;
+    width: auto;
+    margin-right: 10px;
+    background: none;
+  }
+  .nav-box {
+    width: 106px;
+    display: inline-block;
+    padding: 7px 15px;
+    height: default;
+  }
+  .hamburger {
+    display: none;
+  }
+}
+@media screen and (min-width: 320px) and (max-width: 800px) {
+  /* mobile media queries */
+  body {
+    font-size: 1.5em;
+  }
+  .title {
+    font-size: 1rem;
+    margin-left: 2%;
+    margin-right: 2%;
+  }
+  .align-all {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+  }
+  .hero-image {
+    height: 25%;
+    /* Position and center the image to scale nicely on all screens */
+  }
+  /* Place text in the middle of the image */
+  .hero-text {
+    top: 60%;
+    left: 50%;
+    font-size: 1rem;
+  }
+  .navbar {
+    font-size: 1.3rem;
+  }
+  .flex-item {
+    width: 60%;
+  }
+  .profile-pic {
+    width: 80%;
+    height: auto;
+  }
+  .class-pic {
+    width: 98%;
+    height: auto;
+  }
+  .hero-button {
+    margin-top: -15px;
+    width: 180px;
+    height: 15px;
+  }
+  .button-text {
+    font-size: 11px;
+  }
+  .my-form {
+    width: 97%;
+  }
+  form {
+    font-size: 1.4rem;
+  }
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, 50%);
+  }
+  .skill-list li a {
+    font-size: 1.4rem;
+  }
+  .soundcloud-embed {
+    width: 300px;
+  }
+  .soundcloud {
+    width: 90%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .my_vid {
+    width: 300px;
+    height: auto;
+  }
+  canvas {
+    display: none;
+  }
+  .applet-mobile {
+    display: contents;
+  }
+  table,
+  td {
+    width: 18rem;
+    font-size: 1.5rem;
+  }
+}
+body {
+  background-color: white;
+  color: black;
+}
+.figure-serv {
+  width: 80%;
+}
+.pic-server {
+  width: 50%;
+}
+.footer-text {
+  font-size: 0.75em;
+  font-style: italic;
+  /*italicize copyright  */
+}
+@media print {
+  /* print media query */
+  .bg {
+    background-color: white;
+    color: black;
+  }
+}

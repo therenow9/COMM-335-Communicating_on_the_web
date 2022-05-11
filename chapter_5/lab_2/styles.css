@@ -1,0 +1,129 @@
+﻿/* 
+Jeremy Scheuerman
+2-28-22
+Chapter 5 Lab 2
+ */
+/* Css Reset */
+body, header, nav, main, footer, img, h1, h3 ul {
+	padding: 0px;
+	margin: 0px;
+	border: 0px;
+}
+/* Style Rules for body and images  */
+body {
+	background-color: #f6eee4;
+}
+img {
+	max-width: 100%;
+	display: block;
+}
+/* Style Rules for Mobile viewport */
+/* 
+Style Rules to Show Mobile Class and Hide tab-desk */
+/* Style Rules for body and images */
+.mobile {
+	display: block;
+	
+}
+.tab-desk{
+	display:none;
+}	
+/* Style rules for Header Area */
+.mobile h1 h3 {
+	padding: 2%;
+	text-align: center;
+}
+
+nav {
+	background-color: #2a1f14;
+}
+nav ul {
+	list-style: none;
+	text-align: center;
+}
+nav li {
+	display: block;
+	border-top:0.5px solid #f6eee4;
+	font-size: 1.5em;
+	font-family: Geneva, Arial, sans-serif;
+	font-weight: bold;
+}
+nav li a {
+	display: block;
+	color: #f6eee4;
+	padding-top: 0.5em;
+	padding-bottom: 0.5em;
+	padding-left: 2em;
+	padding-right: 2em;
+	text-decoration: none;
+}
+/* Style Rules for Main Content (Mobile) */
+main{
+	padding:2%;
+	font-family: 'Lora', serif;
+}
+main p{
+	font-size:1.25em;
+	
+}
+main h3{
+	padding-top:2%;
+}
+main ul{
+	list-style:square;
+}
+.link{
+	color:#4d3319;
+	text-decoration:none;
+	font-weight:bold;
+	font-style:italic;
+}
+.action {
+	text-align: center;
+	font-size: 1.75em;
+	font-weight: bold;
+}
+.round{
+	border-radius:6px;
+}
+#info ul{
+	margin-left:10%;
+}
+#contact {
+	text-align: center;
+}
+.tel-link{
+	background-color:#2a1f14;
+	padding:2%;
+	width:80%;
+	margin-top:0;
+	margin-bottom:0;
+	margin-left:auto;
+	margin-right:auto;
+}
+.tel-link a{
+	color:f6eee4;
+	text-decoration:none;
+	font-weight:bold;
+}
+.mobile h1{
+	font-family: 'Emblema One', cursive;
+}
+.mobile h3{
+font-family: 'Lora', serif;
+	
+}
+/* Style Rules for footer content */
+footer {
+	text-align: center;
+	color: #f6eee4;
+	font-size: 0.85em;
+	background-color: #2a1f14;
+	padding-top: 1%;
+	padding-bottom: 1%;
+	padding-left: 0%;
+	padding-right: 0%;
+}
+footer a {
+	color: #f3e6d8;
+}
